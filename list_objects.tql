@@ -1,0 +1,6 @@
+use admin;
+list users;
+list roles;
+list dgs;
+list namespaces;
+list applications;

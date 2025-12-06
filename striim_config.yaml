@@ -1,0 +1,13 @@
+name: 'striim_restapi_project'
+version: '1.0.0'
+config-version: 3
+striim_install_type: 'on_prem'
+cloud:
+  api_url: 'https://aws-us.striim.dev/3780'
+  api_key: '<enter_your_api_key>'
+on_prem:
+  striim_url: "http://localhost:9080"
+  striim_username: "admin"
+  striim_password: "striim"
+namespace: "admin"
+

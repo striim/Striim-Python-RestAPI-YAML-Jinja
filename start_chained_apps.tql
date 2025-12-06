@@ -1,0 +1,2 @@
+START APPLICATION databricks_test.app_test_automated_pipeline_databricks_IL ON COMPLETED 
+(start application databricks_test.app_test_automated_pipeline_databricks_CDC);

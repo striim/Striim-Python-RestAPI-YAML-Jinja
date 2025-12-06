@@ -1,0 +1,23 @@
+{
+    "templateDefinition": {
+        "sourceAdapter": "DatabaseReader",
+        "targetAdapter": "SpannerWriter"
+    }, 
+    "applicationName": "admin.api_il_oracle_to_spanner_v4",
+    "sourceParameters": {
+        "Username": "QATEST",
+        "Password": "qatest",
+        "ConnectionURL": "jdbc:oracle:thin:@//104.197.127.136:1521/ORCL",
+        "Tables": "QATEST.POS_TRAINING_DATA",
+        "FetchSize": "10000",
+        "DatabaseProviderType": "ORACLE",
+        "QuiesceOnILCompletion": "true",
+        "ReturnDateTimeAs": null
+    },
+    "targetParameters": {
+        "ServiceAccountKey": "UploadedFiles/striimfieldproject-c2ba6a841eac1.json",
+        "InstanceID": "sctestinstance",
+        "Tables": "QATEST.POS_TRAINING_DATA,renga-test-db.POS_TRAINING_DATA;",
+        "ProjectId": "striimfieldproject"
+    }
+}
