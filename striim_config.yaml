@@ -8,6 +8,6 @@ cloud:
 on_prem:
   striim_url: "http://localhost:9080"
   striim_username: "admin"
-  striim_password: "striim"
+  striim_password: "<admin_password>"
 namespace: "admin"
 
